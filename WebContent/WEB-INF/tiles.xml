@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="base.definition"
+        template="Layout.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="/Header.jsp" />
+        <put-attribute name="menu" value="/menu.jsp"/>
+        
+        <put-attribute name="body" value="/body.jsp" />
+        <put-attribute name="footer" value="/Footer.jsp" />
+    </definition>
+ 
+    <definition name="Login.definition" extends="base.definition">
+        <put-attribute name="title" value="Enter Book Details" />
+        <put-attribute name="body" value="/Login.jsp" />
+    </definition>
+    <definition name="Login.success.definition" extends="base.definition">
+        <put-attribute name="title" value="Book Details" />
+        <put-attribute name="body" value="/Login.jsp" />
+    </definition>
+    <definition name="Register.definition" extends="base.definition">
+        <put-attribute name="title" value="Enter Personal Details" />
+        <put-attribute name="body" value="/Register.jsp" />
+    </definition>
+    <definition name="Register.success.definition" extends="base.definition">
+        <put-attribute name="title" value="Book Details" />
+        <put-attribute name="body" value="/Register.jsp" />
+    </definition>
+    <definition name="success.definition" extends="base.definition">
+        <put-attribute name="title" value="Person Details" />
+        <put-attribute name="body" value="/success.jsp" />
+    </definition>
+    
+        <definition name="HomePage.definition" extends="base.definition">
+        <put-attribute name="title" value="Enter Book Details" />
+        <put-attribute name="body" value="/body.jsp" />
+    </definition>
+    <definition name="book.success.definition" extends="base.definition">
+        <put-attribute name="title" value="Book Details" />
+        <put-attribute name="body" value="/success_book.jsp" />
+    </definition>
+    
+    <definition name="Location.definition" extends="base.definition">
+        <put-attribute name="title" value="Enter Book Details" />
+        <put-attribute name="body" value="/Location.jsp" />
+    </definition>
+    
+    <definition name="VehicleSelection.definition" extends="base.definition">
+        <put-attribute name="title" value="Enter Book Details" />
+        <put-attribute name="body" value="/VehicleSelection.jsp" />
+    </definition>
+    
+    <definition name="Addon.definition" extends="base.definition">
+        <put-attribute name="title" value="Enter Book Details" />
+        <put-attribute name="body" value="/Addon.jsp" />
+    </definition>
+    
+    
+ 
+    
+    <!-- footer -->
+        <definition name="about.definition" extends="base.definition">
+        <put-attribute name="title" value="Enter Book Details" />
+        <put-attribute name="body" value="/about.jsp" />
+    </definition>
+    
+    <definition name="affilated.definition" extends="base.definition">
+        <put-attribute name="title" value="Enter Book Details" />
+        <put-attribute name="body" value="/affilated.jsp" />
+    </definition>
+    
+    <definition name="sitemap.definition" extends="base.definition">
+        <put-attribute name="title" value="Enter Book Details" />
+        <put-attribute name="body" value="/sitemap.jsp" />
+    </definition>
+    
+    <definition name="contactus.definition" extends="base.definition">
+        <put-attribute name="title" value="Enter Book Details" />
+        <put-attribute name="body" value="/contactus.jsp" />
+    </definition>
+    
+    <definition name="career.definition" extends="base.definition">
+        <put-attribute name="title" value="Enter Book Details" />
+        <put-attribute name="body" value="/career.jsp" />
+    </definition>
+    
+    <definition name="weather.definition" extends="base.definition">
+        <put-attribute name="title" value="Enter Book Details" />
+        <put-attribute name="body" value="/weather.jsp" />
+    </definition>
+ 
+</tiles-definitions>
